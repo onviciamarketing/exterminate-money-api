@@ -1,56 +1,10 @@
-<h1 align="center">
-  <br>
-  <a href="https://sistemaspymesjc.blogspot.com/p/trabaja-con-nosotros.html">
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj80lJ2YL2GVpJi0J9bSBGXtwbjx-JXLjA63ZLH5lRzxjuwxYHhXzsKpTU8rjLiAQPq07prlMOiW7c8XKh3Klv91Hf_CM9e8wpuHg7EiqZYNW6utWYKogRHdFTtUnsd4_CAKpMauAPWYMY5kzb18RZgrKzEUs4jgd7g4gJ807oqt5mGhaM2aSxw07wYV3w/s320/foroworkers_logo.png" alt="Foroworkers" width="150">
-  </a>
-  <br>
-  GisEM
-  <br>
-</h1>
-
-<a href="https://youtu.be/YEAvFu7ccz8">
-    <img class="flag-img" src="gisem.png" alt="GisEM" width="100%">
-</a>
-
 ## Introduction
 
-earthquake monitor web app - Hazards API - Data analysis and preventive measures in the face of seismic activity.
-
-<p align="center">
-  <img alt="GitHub" src="https://img.shields.io/github/license/foroworkers/foroworkers?style=for-the-badge">
-  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/foroworkers/foroworkers?style=for-the-badge">
-  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/foroworkers/Foroworkers/total?style=for-the-badge">
-  <a href="https://discord.gg/ntpz4aRHHy">
-    <img alt="Chat On Discord" src="https://img.shields.io/badge/chat-on%20discord-7289da?style=for-the-badge&logo=discord&logoColor=white">
-  </a>
-</p>
-
-<p align="center">
-  <a href="#about">About</a> •
-   <a href="#contributors">Contributors</a> •
-  <a href="#features">Features</a> •
-  <a href="#setup">Setup</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#access"> Access</a> •
-   <a href="#support"> Support</a> •
-  <a href="#donations"> Donations</a> •
-</p>
-
-![screenshot](gisem2.png)
-
-## About
-A powerful Open Source Business Forum that can be installed on your server.Open source Laravel Forum
-
-## Contributors
-We thank everyone who contributes to this project.
-
-* **Jonathan Castro** - *Software Engineer* - [jonathancastrodeveloper](https://github.com/jonathancastroccs)
+This game is for those who understand the developer's philosophy.
 
 ## Starting
 
 _These instructions will allow you to get a copy of the project running on your local machine for development and testing purposes._
-
-
 
 
 ## Setup
@@ -148,7 +102,7 @@ $ php artisan serve
 
 ## Support
 
-_foroworkers@istemaspymesjc.online_
+_sistemaspymesjc@gmail.com
 
 * If you would like a business forum with many extra features, please contact us with your requirements and budget. Thank you.
 
