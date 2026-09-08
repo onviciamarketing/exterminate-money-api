@@ -19,37 +19,38 @@ return new class extends Migration
     		$table->string('creature_img');
             $table->unsignedInteger('creature_px')->nullable();
             $table->unsignedInteger('creature_py')->nullable();
+            $table->unsignedInteger('maincreature_id')->default(1);   
     		// $table->string('pensum_kwtwo');
     		// $table->string('pensum_kwthree');
     		// $table->string('pensum_url');
     		// $table->string('pensum_video');      
     		// $table->unsignedInteger('course_id');    	             
-    		$table->timestamps();
-    	});
+            $table->timestamps();
+        });
 
     	
     	$reply = new Creature;
-    	$reply->creature_name = 'Pikachu';
-    	$reply->creature_img = 'images/pikachu.jpeg';       	
+    	$reply->creature_name = 'Dollar';
+    	$reply->creature_img = 'images/dollar.jpeg';       	
     	$reply->save();
 
         $reply = new Creature;
-        $reply->creature_name = 'Bulbasaur';
-        $reply->creature_img = 'images/bulbasaur.jpeg';         
+        $reply->creature_name = 'Euros';
+        $reply->creature_img = 'images/euros.jpeg';         
         $reply->save();
 
         $reply = new Creature;
-        $reply->creature_name = 'Squirtle';
-        $reply->creature_img = 'images/squirtle.jpeg';         
+        $reply->creature_name = 'Bolivares';
+        $reply->creature_img = 'images/bolivares.jpeg';         
         $reply->save();
 
         $reply = new Creature;
-        $reply->creature_name = 'Charmander';
-        $reply->creature_img = 'images/charmander.jpeg';         
+        $reply->creature_name = 'Libras Esterlinas';
+        $reply->creature_img = 'images/libras_esterlinas.jpeg';         
         $reply->save();
 
         
-    	
+
     }
 
     /**
