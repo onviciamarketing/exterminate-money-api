@@ -1,0 +1,52 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+use App\Models\PlayerCharacter;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+    	Schema::create('players_characters', function (Blueprint $table) {
+    		$table->id();    		
+    		$table->unsignedInteger('player_id');
+            $table->unsignedInteger('character_id');
+            // $table->unsignedInteger('maincategory_id');
+    		$table->timestamps();
+    	});
+
+        //11 x 2 = 22 propiedades digitales 
+        //29 x 2 = 58 propiedades digitales 
+        // total 80 post
+
+        // Propiedades digitales
+    	$userpost = new PlayerCharacter;    	
+    	$userpost->player_id = 1;
+        $userpost->character_id = 1;              
+    	$userpost->save();
+
+        $userpost = new PlayerCharacter;        
+        $userpost->player_id = 2;
+        $userpost->character_id = 2;              
+        $userpost->save();
+    	
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+    	Schema::dropIfExists('players_characters');
+    }
+};
