@@ -29,7 +29,7 @@ return new class extends Migration
 
         $reply = new MainCreature;
         $reply->maincreature_name = 'Money';
-        $reply->maincreature_img = 'images/money.jpeg';        
+        $reply->maincreature_img = 'images/money.png';        
         $reply->save();
     }
 

@@ -31,22 +31,22 @@ return new class extends Migration
     	
     	$reply = new Creature;
     	$reply->creature_name = 'Dollar';
-    	$reply->creature_img = 'images/dollar.jpeg';       	
+    	$reply->creature_img = 'images/dollar.png';       	
     	$reply->save();
 
         $reply = new Creature;
         $reply->creature_name = 'Euros';
-        $reply->creature_img = 'images/euros.jpeg';         
+        $reply->creature_img = 'images/euros.png';         
         $reply->save();
 
         $reply = new Creature;
         $reply->creature_name = 'Bolivares';
-        $reply->creature_img = 'images/bolivares.jpeg';         
+        $reply->creature_img = 'images/bolivares.png';         
         $reply->save();
 
         $reply = new Creature;
         $reply->creature_name = 'Libras Esterlinas';
-        $reply->creature_img = 'images/libras_esterlinas.jpeg';         
+        $reply->creature_img = 'images/libras_esterlinas.png';         
         $reply->save();
 
         

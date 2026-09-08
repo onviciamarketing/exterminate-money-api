@@ -71,6 +71,7 @@ class HomeController extends Controller
 
      $creaturerandom = Creature::select('id', 'creature_name','creature_img','creature_px','creature_py')           
      ->where('creatures.id', $data->id)
+     ->where('maincreature_id', 1)
      ->firstOrFail();   
 
 
